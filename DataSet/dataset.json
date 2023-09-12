@@ -1,0 +1,95 @@
+{
+    "profiles": [
+      {
+        "id": "1",
+        "username": "john_doe",
+        "name": {
+          "first": "John",
+          "middle": "Edward",
+          "last": "Doe"
+        },
+        "email": "john@example.com",
+        "birthdate": "1990-05-15",
+        "gender": "Male",
+        "location": {
+          "city": "New York",
+          "state": "NY",
+          "country": "USA"
+        },
+        "profile_image": "https://example.com/images/johndoe_profile.jpg"
+      },
+      {
+        "id": "2",
+        "username": "jane_smith",
+        "name": {
+          "first": "Jane",
+          "middle": "Elizabeth",
+          "last": "Smith"
+        },
+        "email": "jane@example.com",
+        "birthdate": "1985-08-25",
+        "gender": "Female",
+        "location": {
+          "city": "Los Angeles",
+          "state": "CA",
+          "country": "USA"
+        },
+        "profile_image": "https://example.com/images/janesmith_profile.jpg"
+      },
+      {
+        "id": "3",
+        "username": "bob_jackson",
+        "name": {
+          "first": "Bob",
+          "middle": "William",
+          "last": "Jackson"
+        },
+        "email": "bob@example.com",
+        "birthdate": "1978-03-10",
+        "gender": "Male",
+        "location": {
+          "city": "Chicago",
+          "state": "IL",
+          "country": "USA"
+        },
+        "profile_image": "https://example.com/images/bobjackson_profile.jpg"
+      },
+      {
+        "id": "4",
+        "username": "susan_wilson",
+        "name": {
+          "first": "Susan",
+          "middle": "Marie",
+          "last": "Wilson"
+        },
+        "email": "susan@example.com",
+        "birthdate": "1995-11-28",
+        "gender": "Female",
+        "location": {
+          "city": "San Francisco",
+          "state": "CA",
+          "country": "USA"
+        },
+        "profile_image": "https://example.com/images/susanwilson_profile.jpg"
+      },
+      {
+        "id": "5",
+        "username": "michael_brown",
+        "name": {
+          "first": "Michael",
+          "middle": "James",
+          "last": "Brown"
+        },
+        "email": "michael@example.com",
+        "birthdate": "1982-07-19",
+        "gender": "Male",
+        "location": {
+          "city": "Miami",
+          "state": "FL",
+          "country": "USA"
+        },
+        "profile_image": "https://example.com/images/michaelbrown_profile.jpg"
+      }
+    ]
+  }
+  
