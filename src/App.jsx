@@ -1,4 +1,4 @@
-// import Details from './components/pages/Details';
+import Quiz from './components/pages/Quiz';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "../src/styles/App.css";
 import Layout from '../src/components/Layout';
@@ -18,7 +18,7 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/signup" element={<Signup />} />
                 <Route path="/login" element={<Login />} />
-                {/* <Route path="/details" element={<Details />} /> */}
+                <Route path="/quiz" element={<Quiz />} />
                 <Route element={<PrivateRoute  />}>
                   <Route path="/result" element={<Result />} />
                 </Route>

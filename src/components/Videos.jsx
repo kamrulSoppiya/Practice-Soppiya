@@ -7,16 +7,16 @@ export default function Videos() {
   const {loading, error, videos} = useGetVideos();
   return (
       <div className={classes.videos}>
-        {videos.map((video)=>(
-          <Link to="#">
+        {videos.map((video,index)=>(
+          <Link to="#" key={index}>
             <Video id={video.youtubeID} title={video.title} noq={video.noq}/>
           </Link>
         ))}
           
         {/* })} */}
-        {/* {!loading && videos.length === 0 && <div>No data found!</div>}
+        {!loading && videos.length === 0 && <div>No data found!</div>}
         {error && <div>There was an error!</div>}
-        {loading && <div>Loading...</div>} */}
+        {loading && <div>Loading...</div>}
       </div>
   );
 }
