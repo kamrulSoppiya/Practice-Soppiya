@@ -6,7 +6,6 @@ import useWindowWidth from "../Hooks/useNavHooks";
 
 export default function Nav() {
   const screenSize = useWindowWidth(760);
-  
   return (
     <nav className={classes.nav}>
       <ul>

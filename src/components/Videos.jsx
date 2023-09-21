@@ -8,7 +8,7 @@ export default function Videos() {
   return (
       <div className={classes.videos}>
         {videos.map((video,index)=>(
-          <Link to="#" key={index}>
+          <Link to={`/quiz/${video.youtubeID}`} key={index}>
             <Video id={video.youtubeID} title={video.title} noq={video.noq}/>
           </Link>
         ))}

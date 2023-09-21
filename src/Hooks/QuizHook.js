@@ -17,7 +17,7 @@ export default function QuizHook(videoId){
                 const snapshot=await get(questionQuery);
                
                 setLoading(false);
-                console.log(snapshot.val());
+                // console.log(snapshot.val());
                 
                 if(snapshot.exists()){
                     setQuestion((prevQuestions) => {

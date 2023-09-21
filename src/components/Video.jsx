@@ -1,5 +1,4 @@
 import classes from "../styles/Video.module.css";
-import img from '../assets/images/item.png';
 
 export default function Video({ id, title, noq }) {
   return (
